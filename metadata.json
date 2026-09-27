@@ -1,0 +1,6 @@
+{
+  "name": "Bob-DeployGuard",
+  "description": "Bob-DeployGuard // Autonomous PR & Release Agent hackathon dashboard featuring subagent orchestration, interactive code diff repairs, and production readiness scorecard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

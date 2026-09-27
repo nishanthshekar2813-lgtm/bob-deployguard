@@ -1,0 +1,41 @@
+cat << 'EOF' > README.md
+# 🛡️ Bob-DeployGuard // Autonomous PR & Zero-Vulnerability Release Pipeline
+
+> **Submission for IBM Bob 2.0 Hackathon (Lablab.ai)**  
+> *Autonomous Pull Request Review, Architectural Compliance, and Release Verification powered by IBM Bob 2.0 & Google Gemini.*
+
+---
+
+## 👥 Team Master Coder
+* **Team Leader:** Nishanth Shekar T
+* **Team Members:**
+  * Nagaaadya H.N
+  * Rithika Goru
+  * Bc.Sai.Yashith
+  * Samarth
+
+---
+
+## 🎯 Problem Statement
+In fast-moving development teams, Pull Request (PR) reviews and release checks take hours of manual effort. Senior engineers waste **120+ minutes per release** hunting for subtle security bugs, verifying breaking API changes against internal guidelines, running regression tests, and updating documentation manually.
+
+## 🚀 The Solution
+**Bob-DeployGuard** is an end-to-end autonomous release review and developer workflow agent. Built on **IBM Bob 2.0**, it intercepts incoming Pull Requests, uses **Document Understanding** to parse project architecture guidelines (`ARCHITECTURE.md`), executes **Parallel Subagents** to audit code diffs and auto-repair vulnerabilities, and generates an automated **Production Readiness Scorecard**.
+
+---
+
+## ✨ Key Features & Architecture
+
+* 🤖 **Tri-Subagent Swarm**:
+  * **Subagent A (Document Understanding)**: Audits incoming PR diffs against repository contracts in `ARCHITECTURE.md`.
+  * **Subagent B (Security & Auto-Fix Engine)**: Detects taint sinks (CWE-89 SQL Injection, CWE-798 Hardcoded Secrets, CWE-306 Missing Auth) and writes parameterized code fixes.
+  * **Subagent C (Release Synthesizer)**: Produces Keep-a-Changelog compliant release notes with SemVer tracking.
+* ⚡ **Dual-Engine Architecture**: Google Gemini 3.8 Flash for real-time code synthesis combined with IBM Cloud IAM OAuth2 token exchange for signed production authorization.
+* 📊 **Interactive Telemetry**: Real-time side-by-side split diff viewer with dynamic multi-pass safety progression curve.
+
+---
+
+## 🛠️ Tech Stack
+`IBM Bob 2.0` | `Google Gemini 3.8 Flash` | `IBM Cloud IAM` | `React 19` | `Tailwind CSS` | `D3.js` | `Node.js` | `TypeScript`
+
+EOF
